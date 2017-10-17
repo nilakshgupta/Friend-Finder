@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled Bootstraap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" align="center">
+            <h1><span class = "glyphicon glyphicon-envelope"></span> Survey </h1>
+            <hr>
+            <h2>-- Find youself a Friend -- </h2>
+             <br>
+            <p><a class="btn btn-primary btn-lg" href="home.html" role="button"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></p>
+        </div>
+        <hr>
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>About Me</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="POST" role="form">
+
+                            <div class="form-group">
+                                <label for="name">Name (Required)</label>
+                                <input type="text" class="form-control" placeholder ="Your Name" id="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="role">Link to Image  (Required)</label>
+                                <input type="text" class="form-control" placeholder ="Add link to your image here " id="image" required>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Survey Questions</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="POST" role="form">
+
+                            <h4>Question 1 : You spend most of your time on facebook.</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q1">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 2 : You like reading fantasy books?</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q2">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 3 : People put you in "Work hard, play hard" category. </h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q3">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 4 : Your close friends describe you as a "dependable" person.</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q4">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 5 : You get along with people you work with?</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q5">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 6 : You find it easy to stay relaxed and focused even under ressure. </h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q6">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 7 : Paris is your favorite destination.</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q7">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 8 : Cleveland cavaliers is your favorite Basketball team.</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q8">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 9 : Your favorite past time is taking selfies and posting on instagram.</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q9">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                            <hr>
+                            <h4>Question 10 : Pillow fighting gives you adrenaline rush.</h4>
+                            <h5></h5>
+                            <select class="chosen-select" id="q10">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                        </form>
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/nilakshgupta/Friend-Finder">GitHub Repo</a></p>
+    </div>
+
+    <!-- Modal -->
+    <div id="resultsModal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">You got a new Friend!!:</h4>
+          </div>
+          <div class="modal-body">
+            <h3 id="friend-match-name"></h3>
+            <img id="friend-match-image" src="" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+            $("#add-btn").on("click", function() {
+            event.preventDefault();
+            function validateForm() //validation
+            {
+            var isValid = true;
+            $('.form-control').each(function() {
+                if($(this).val() === ''){
+                    isValid = false;
+                }
+            });
+          return isValid;
+        }
+        if(validateForm()){
+            var userInput = {
+                name: $("#name").val().trim(),
+                image: $("#image").val(),
+                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val() ]
+            };
+            $.post("/api/friends", userInput)
+                .done(function(data) {
+                    console.log("Friend matched response", data);
+                    $("#friend-match-name").text(data.name).append('<br>');
+                    $("#friend-match-image").attr("src", data.image).css({"max-height":"400px", "width": "400px"});
+                    $("#resultsModal").modal('toggle');
+                });
+            $("#name").val("");
+            $("#image").val("");
+            [$("#q1").val(""), $("#q2").val(""), $("#q3").val(""), $("#q4").val(""), $("#q5").val(""), $("#q6").val(""), $("#q7").val(""), $("#q8").val(""), $("#q9").val(""), $("#q10").val("") ]
+        }
+        else{
+            alert("Fill out the required fields!");
+        }
+    });
+        
+
+    </script>
+</body>
+
+</html>

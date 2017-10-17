@@ -1,0 +1,17 @@
+.jumbotron {
+  background-color: #eee;
+  color: #000;
+  }
+
+body {
+      background-size: cover;
+  }
+
+.panel-title{
+  color: #eee;
+
+}
+h4{
+  color: #000;
+  font-size: 20px;
+}
